@@ -1,0 +1,93 @@
+/* CSS Document */
+
+
+#gallery {
+	width:728px;
+	height:420px;
+	padding:10px;
+	background: #FDFDFD;
+	position:relative;
+	margin-bottom:20px;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	margin-left: 35px;
+}
+#gallery b.default {
+	position:absolute;
+	left:10px;
+	top:10px;
+	width:548px;
+	height:420px;
+	text-align:center;
+}
+#gallery b.default img {
+	display:block;
+	margin:0 auto 0px auto;
+	border:1px solid #eee;
+	border-color:#555 #ddd #eee #333;
+}
+#gallery b.default span {display:block; color:#fff; font-family:verdana, arial, sans-serif; font-weight:normal; font-size:11px; width:350px; margin:0 auto;}
+
+#gallery ul {list-style:none; padding:0; margin:0; width:180px; position:relative; float:right;}
+#gallery ul li {display:inline; width:52px; height:52px; float:left; margin:0 0 5px 5px;}
+#gallery ul li a {display:block; width:50px; height:50px; text-decoration:none; border:1px solid #000; border-color:#eee #555 #333 #ddd;}
+#gallery ul li a span {display:none;}
+#gallery ul li a img {display:block; width:50px; height:50px; border:0;}
+#gallery ul li a:hover {
+	white-space:normal;
+	border-color:#555 #ddd #eee #333;
+	background:#FFFFFF url(../images/favicon.gif) no-repeat;
+}
+#gallery ul li a:hover b {
+	position:absolute;
+	left:-548px;
+	top:0;
+	width:548px;
+	height:420px;
+	text-align:center;
+	background:#8C8C8C;
+	z-index:20;
+}
+#gallery ul li a:hover span {display:block; color:#fff; font-family:verdana, arial, sans-serif; font-weight:normal; font-size:11px; width:350px; margin:0 auto;}
+#gallery ul li a:hover img {
+	margin:0 auto 10px auto;
+	width:auto;
+	height:auto;
+	border:1px solid #eee;
+	border-color:#555 #ddd #eee #333;
+}
+
+#gallery ul li a:active, #gallery ul li a:focus {
+	white-space:normal;
+	border-color:#555 #ddd #eee #333;
+	background:url(../images/favicon_vert.gif) no-repeat bottom;
+}
+#gallery ul li a:active b, #gallery ul li a:focus b {
+	position:absolute;
+	left:-548px;
+	top:0;
+	width:548px;
+	height:420px;
+	text-align:center;
+	background:#C4C5C7;
+	z-index:10;
+}
+#gallery ul li a:active span, #gallery ul li a:focus span {
+	display:block;
+	color:#333333;
+	font-family:verdana, arial, sans-serif;
+	font-weight:normal;
+	font-size:11px;
+	width:350px;
+	margin:0 auto;
+}
+#gallery ul li a:active img, #gallery ul li a:focus img{
+	margin:0 auto 10px auto;
+	width:auto;
+	height:auto;
+	border:1px solid #eee;
+	border-color:#555 #ddd #eee #333;
+	color: #333333;
+}

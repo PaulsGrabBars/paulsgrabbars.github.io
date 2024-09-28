@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#box {
+	border: 1px solid #aaa;
+	position: relative;
+	height: 610px;
+	width: 660px;
+	left: auto;
+	top: 20px;
+	right: auto;
+	margin-left: 10px;
+	background-image: url(../images/gallery/back.jpg);
+	margin-right: 75px;
+	margin-bottom: 15px;
+	float: right;
+	clear: left;
+}
+
+/* Removing the list bullets and indentation */ 
+	#box ul {
+	padding:0px;
+	margin:0px;
+	display: inline;
+}
+
+/* Remove the images and text from sight */
+
+#box a.gallery span {
+	position:absolute;
+	width:1px;
+	height:1px;
+	top:5px;
+	left:5px;
+	overflow:hidden;
+	background:#FFF;
+}
+
+/* Adding the thumbnail images */
+#box a.gallery, #box a.gallery:visited {
+	display:block;
+	color:#8C8C8C;
+	text-decoration:none;
+	border:1px solid #8C8C8C;
+	margin:1px 2px 1px 2px;
+	text-align:left;
+	cursor:default;
+    }
+	
+#box a.slide1 {
+	background:url(../images/gallery/thumbnails/thumb_1.jpg) no-repeat;
+	height:93px;
+	width:60px;
+    }
+#box a.slide2 {
+	background:url(../images/gallery/thumbnails/thumb_2.jpg);
+	height:93px;
+	width:60px;
+    }
+#box a.slide3 {
+	background:url(../images/gallery/thumbnails/thumb_3.jpg);
+	height:93px;
+	width:60px;
+    }
+#box  a.slide4 {
+	background:url(../images/gallery/thumbnails/thumb_4.jpg) no-repeat;
+	height:93px;
+	width:60px;
+    }
+#box  a.slide5 {
+	background:url(../images/gallery/thumbnails/thumb_5.jpg);
+	height:93px;
+	width:60px;
+    }
+#box  a.slide6 {
+	background:url(../images/gallery/thumbnails/thumb_6.jpg);
+	height:93px;
+	width:60px;
+    }
+#box  a.slide7 {
+	background:url(../images/gallery/thumbnails/thumb_7.jpg);
+	height:60px;
+	width:93px;
+    }
+#box  a.slide8 {
+	background:url(../images/gallery/thumbnails/thumb_8.jpg);
+	height:60px;
+	width:93px;
+    }
+#box  a.slide9 {
+	background:url(../images/gallery/thumbnails/thumb_9.jpg) no-repeat;
+	height:60px;
+	width:93px;
+    }
+#box  a.slide10 {
+	background:url(../images/gallery/thumbnails/thumb_10.jpg);
+	height:60px;
+	width:93px;
+    }
+#box  a.slide11 {
+	background:url(../images/gallery/thumbnails/thumb_11.jpg);
+	height:93px;
+	width:60px;
+    }
+#box  a.slide12 {
+	background:url(../images/gallery/thumbnails/thumb_12.jpg);
+	height:93px;
+	width:60px;
+    }
+#box  a.slide13 {
+	background:url(../images/gallery/thumbnails/thumb_13.jpg);
+	height:93px;
+	width:60px;
+    }
+#box  a.slide14 {
+	background:url(../images/gallery/thumbnails/thumb_14.jpg);
+	height:60px;
+	width:93px;
+    }
+#box  a.slide15 {
+	background:url(../images/gallery/thumbnails/thumb_15.jpg);
+	height:60px;
+	width:93px;
+    }
+#box  a.slide16 {
+	background:url(../images/gallery/thumbnails/thumb_16.jpg);
+	height:93px;
+	width:60px;
+    }
+#box  a.slide17 {
+	background:url(../images/gallery/thumbnails/thumb_17.jpg);
+	height:93px;
+	width:60px;
+    }
+#box  a.slide18 {
+	background:url(../images/gallery/thumbnails/thumb_18.jpg);
+	height:93px;
+	width:60px;
+    }
+
+/* set the size of the unordered list to neatly house the thumbnails */
+#box ul {
+	width:198px;
+	height:600px;
+	padding: 0px;
+    }
+#box li {
+	float:left;
+	list-style: none;
+    }
+	
+/* move the thumbnails into the correct position */
+#box ul {
+    margin:5px;
+    float:right;
+}
+
+/* change the thumbnail border color */
+#box a.gallery:hover {
+    border:1px solid #fff;
+    }
+
+/* styling the :hover span */
+#box a.gallery:hover span {
+	position:absolute;
+	width:372px;
+	height:600px;
+	top:10px;
+	left:75px;
+	color:#8C8C8C;
+	background:#fff;
+    }
+	
+#box a.gallery:hover img {
+    border:1px solid #fff;
+    float:left;
+    margin-right:5px;
+    }
+
+#box a.slideb:hover img, #box a.slidei:hover img {
+    float:right;
+    }
+	
+#box {
+	background:#fff url(../images/gallery/back.jpg) 75px 10px no-repeat;
+    }

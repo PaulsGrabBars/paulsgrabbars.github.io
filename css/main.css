@@ -1,0 +1,336 @@
+body {
+	font-family: "Trebuchet MS", "Lucida Grande", Verdana, Arial, sans-serif;
+	color: #333;
+	font-size: 14px;
+	background: #000000 url(../images/bg_page.jpg) repeat-x;
+	margin: 0px; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0px;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	line-height: 20px;
+}
+#container {
+	background: #FFFFFF url(../images/bg_maincontent.jpg) repeat-y;
+	margin: 0px auto;
+	text-align: left;
+	padding: 0px;
+	width: 824px;
+	color: #595441;
+}
+a:link {
+	color: #007799;
+	text-decoration: underline;
+}
+a:hover {
+	color: #66CC00;
+}
+a:visited {
+	color: #007799;
+}
+p {
+	margin-right: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+h1 {
+	font-size: 130%;
+	letter-spacing: 0.2em;
+	margin-left: 40px;
+	margin-top: 40px;
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+	color: #000;
+	font-weight: 700;
+}
+h2 {
+	color: #66CC00;
+	font-weight: bold;
+	margin-top: 40px;
+	font-size: 110%;
+	margin-left: 40px;
+}
+
+blockquote {
+	width: 55%;
+	margin-right: auto;
+	margin-left: 50px;
+	line-height: 120%;
+	color: #000000;
+	border-left-width: 20px;
+	font-style: italic;
+	font-size: 90%;
+	border-left-style: solid;
+	border-left-color: #D4D4D4;
+	padding-left: 10px;
+}
+#ResourcesText {
+	border-left-color: #CCC;
+	border-left-style: ridge;
+	border-left-width: 10px;
+	margin-left: 50px;
+	font-size: 100%;
+	padding-left: 10px;
+	line-height: 105%;
+	padding-right: 20px;
+}
+.webAddress {
+	font-style: italic;
+	font-weight: bold;
+	color: #099;
+	padding-left: 15px;
+	font-size: 100%;
+}
+hr {
+	color: #554411;
+	height: 1px;
+	width: 80%;
+	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.incomplete {
+	color: #FF0000;
+}
+#top {
+	background-image: url(../images/bg_top.jpg);
+	height: 47px;
+	width: 824px;
+	padding: 0px;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+#header {
+	background-color: #FFFFFF;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 34px;
+}
+#header h1 {
+	text-indent: -9999px;
+}
+.header img {
+	padding: 0px;
+	margin: 0px;
+}
+#navbar {
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px;
+}
+.navbar li {
+	display: inline;
+	height: 100%;
+	margin-right: 0px;
+	float: left;
+	margin-left: 60px;
+}
+.navbar li a {
+	text-decoration: none;
+	width: 240px;
+	list-style-type: none;
+	font-size: 1.8em;
+	color: #FFFFFF;
+	text-align: center;
+	height: 73px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	margin: 0px auto;
+}
+.navbar li a:hover {
+	color: #33CCFF;
+}
+#who {
+	text-decoration: none;
+	background-image: url(../images/button_amber.jpg);
+	background-repeat: no-repeat;
+	height: 73px;
+	width: 240px;
+	margin: 0px;
+	padding-top: 24px;
+	text-align: center;
+}
+#who .over {
+	background: url(../images/button_brownOver.jpg);
+}
+#what {
+	background-image: url(../images/button_brown.jpg);
+	background-repeat: no-repeat;
+	height: 73px;
+	width: 240px;
+	padding-top: 24px;
+	left: 259px;
+	margin: 0px;
+	text-align: center;
+}
+#start {
+	background-image: url(../images/button_lime.jpg);
+	background-repeat: no-repeat;
+	height: 73px;
+	width: 240px;
+	list-style-type: none;
+	padding-top: 24px;
+	margin: 0px;
+	left: 509px;
+	text-align: center;
+}
+#mainContent {
+	margin: 0px 340px 0px 20px;
+	line-height: 165%;
+	text-align: left;
+	background-color: #FFFFFF;
+	font-size: 90%;
+	padding: 0px;
+}
+#onecolumnContent {
+	margin: 0px 20px 0px 20px;
+	line-height: 165%;
+	text-align: left;
+	background-color: #FFFFFF;
+	font-size: 90%;
+	padding: 0px;
+}
+#sidebar {
+	background-image: url(../images/bg_sidebar.jpg);
+	background-repeat: no-repeat;
+	margin: 0px 30px 0px 0px;
+	float: right;
+	width: 258px;
+	background-color: #FDFDFD;
+	color: #666;
+	list-style-type: none;
+	text-align: left;
+	font-size: 85%;
+	padding-right: 35px;
+	clear: left;
+	line-height: 150%;
+}
+.sidebar h2 {
+	font-size: 95%;
+}
+.sidebar p {
+	margin: 0px;
+	line-height: 1em;
+}
+.sidebar li {
+	line-height: 50%;
+	list-style-type: disc;
+}
+.sidebar.caption {
+	font-size: 80%;
+	color: #595441;
+	text-align: center;
+}
+.quest {
+	color: #000000;
+	list-style-image: url(../images/bulletQ.gif);
+	padding-top: 10px;
+	margin-left: 25px;
+	font-size: 95%;
+	list-style-position: inside;
+}
+.answ {
+	list-style-image: url(../images/bulletA.gif);
+	padding-top: 5px;
+	margin-left: 30px;
+	list-style-position: inside;
+	font-size: 90%;
+	margin-right: 25px;
+}
+.kudos {
+	list-style-image: url(../images/kudos.gif);
+	padding-top: 36px;
+	margin-left: 60px;
+	list-style-position: inside;
+	color: #000000;
+	background-image: url(../images/kudos.gif);
+	background-repeat: no-repeat;
+	background-position: left 20px;
+	text-indent: 45px;
+	line-height: 1.5em;
+	font-style: italic;
+	width: 75%;
+	font-size: 1em;
+}
+
+#footer {
+	background:url(../images/bg_footer.jpg) no-repeat;
+	height: 126px;
+	width: 824px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+#footer p {
+	margin: 0px auto;
+	padding: 30px 0px 10px;
+	text-align: center;
+}
+.footer li {
+	display: inline;
+	float: left;
+	margin: 25px auto 0px 25px;
+	text-align: center;
+}
+.footer a:link {
+	color: #FFFFFF;
+	letter-spacing: 0.15em;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .75em;
+}
+.footer a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.footer a:hover {
+	color: #66CC00;
+	text-decoration: none
+}
+.footer li a.current {
+	color: #66CC00;
+}
+#copyright {
+	font-size: 0.7em;
+	color: #CCCCCC;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: .1em;
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	margin-right: 25px;
+	margin-top: 5px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 12px;
+}
+.clearfloat {
+	clear: both;
+	font-size: 1px;
+	line-height: 0px;
+	height: 0px;
+}
+h3 {
+	font-size: 120%;
+	font-style: normal;
+	line-height: 150%;
+	font-weight: bold;
+	color: #333;
+	text-indent: 40px;
+}
+#CompanyName {
+	font-size: 16px;
+	font-weight: bold;
+	color: #099;
+	margin-left: 40px;
+	line-height: 100%;
+}
